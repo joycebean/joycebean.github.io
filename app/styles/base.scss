@@ -1,0 +1,20 @@
+body {
+  font-size: 14px;
+  font-family: "Open Sans", Arial;
+  // -webkit-font-smoothing: antialiased;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.box-grey-outline {
+  text-align: center;
+  padding:    50px;
+  border:     1px #e2e6e8 solid;
+  margin:     40px auto 80px auto;
+}

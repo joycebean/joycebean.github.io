@@ -1,0 +1,54 @@
+.sidebar {
+  background-color: $c-vhs;
+  width: $sidebar-width;
+  position: fixed;
+  height: 100%;
+
+  &__logo {
+    padding: $size-xl;
+    color: $white;
+    font-weight: 600;
+    font-family: "Raleway";
+    letter-spacing: .05rem;
+    text-transform: uppercase;
+    text-align: center;
+
+    img {
+      margin-right: 5px;
+    }
+  }
+
+  &__title {
+    font-size: 0.8rem;
+    font-weight: 600;
+    font-family: "Raleway";
+    letter-spacing: .05rem;
+    color: $white;
+    text-transform: uppercase;
+    padding: 0 $size-xl;
+    margin-top: $size-xl;
+    margin-bottom: $size-sm;
+  }
+
+  a {
+    color: $c-ocean-dark;
+    display: block;
+    padding: $size-xs $size-xl;
+    transition: color .5s ease;
+    line-height: $lh-sidebar;
+
+    &:hover, &:active, &:focus {
+      text-decoration: none;
+    }
+
+    &:hover {
+      color: $c-ocean-light;
+      transition: color .5s ease;
+    }
+
+    &.active {
+      color: $c-sky-light;
+      font-weight: 600;
+    }
+  }
+}

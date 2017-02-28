@@ -1,0 +1,47 @@
+<div class="wrapper">
+
+    <div class="sidebar">
+      <div class="sidebar__logo">
+        <img src="https://d3h6ue1fvxa32i.cloudfront.net/assets/tradegecko-mark-3433f1602d5b9c9963f77aaba9fd62cab8d159c2321019719e539434c7f81276.svg" width="70">
+      </div>
+      <h2 class="sidebar__title">Overview</h2>
+      <ul>
+        <li><a href="#">Introduction</a></li>
+      </ul>
+      <h2 class="sidebar__title">Branding</h2>
+      <ul>
+        <li>{{#link-to "logo"}}Logo{{/link-to}}</li>
+      </ul>
+      <h2 class="sidebar__title">Online Banners</h2>
+      <ul>
+        <li>{{#link-to "online-banners.wireframes"}}Wireframes{{/link-to}}</li>
+          <li>{{#link-to "online-banners.samples"}}Samples{{/link-to}}</li>
+      </ul>
+      <h2 class="sidebar__title">Design</h2>
+      <ul>
+        <li>{{#link-to "colors"}}Color Scheme{{/link-to}}</li>
+        <li><a href="#">Icons</a></li>
+      </ul>
+      <h2 class="sidebar__title">Components</h2>
+      <ul>
+        <li>{{#link-to "buttons"}}Buttons{{/link-to}}</li>
+      </ul>
+      <h2 class="sidebar__title">Sample files</h2>
+      <ul>
+          <li>{{#link-to "buttons"}}Click here to download{{/link-to}}</li>
+      </ul>
+    </div>
+
+    <div class="content">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="content__main">
+              {{outlet}}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+</div>

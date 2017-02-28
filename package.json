@@ -40,13 +40,7 @@
     "ember-resolver": "^2.0.3",
     "loader.js": "^4.0.10"
   },
-  "keywords": [
-    "ember-addon"
-  ],
   "dependencies": {
     "ember-cli-babel": "^5.1.7"
-  },
-  "ember-addon": {
-    "configPath": "tests/dummy/config"
   }
 }

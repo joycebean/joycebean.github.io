@@ -1,0 +1,64 @@
+.content {
+  margin-left: $sidebar-width;
+  color: $gray-5;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.8;
+  letter-spacing: 0.006em;
+
+  &__intro {
+    font-size: 1.25rem;
+    color: $gray-6;
+  }
+
+  &__main {
+    padding: 60px;
+    max-width: 1020px;
+  }
+
+  &__title {
+    font-size: 1.8rem;
+    font-family: "Raleway";
+    font-weight: 400;
+    margin-bottom: $size-sm;
+    color: $gray-8;
+  }
+
+  &__subtitle {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-top: $size-xxl;
+    color: $gray-7;
+  }
+
+  a {
+    color: #429bce;
+    font-weight: bold;
+  }
+    a:hover {
+      color: #5ab9e1;
+      cursor: pointer;
+    }
+
+  &__logo-mark {
+    height: 4em;
+    fill: #000;
+  }
+
+  &__logo-mark-text {
+    height: 4em;
+    padding-left: .5em;
+  }
+
+    &__logo-slate {
+      fill: #2d3033;
+    }
+
+    &__logo-green {
+      fill: #70cf32;
+    }
+
+    &__logo-white {
+      fill: #ffffff;
+    }
+}
