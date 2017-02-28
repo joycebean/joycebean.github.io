@@ -34,31 +34,35 @@
   a {
     color: #429bce;
     font-weight: bold;
-  }
-    a:hover {
+
+    &:hover {
       color: #5ab9e1;
       cursor: pointer;
     }
-
-  &__logo-mark {
-    height: 4em;
-    fill: #000;
   }
+  
+  &__logo {
 
-  &__logo-mark-text {
-    height: 4em;
-    padding-left: .5em;
-  }
+    &-mark {
+      height: 4em;
+      fill: #000;
 
-    &__logo-slate {
+      &-text {
+        height: 4em;
+        padding-left: .5em;
+      }
+    }
+
+    &-slate {
       fill: #2d3033;
     }
 
-    &__logo-green {
+    &-green {
       fill: #70cf32;
     }
 
-    &__logo-white {
+    &-white {
       fill: #ffffff;
     }
+  }
 }
