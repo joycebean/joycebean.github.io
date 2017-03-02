@@ -1,23 +1,128 @@
 .logo {
-  border:1px #e2e6e8 solid;
-  width:350px;
-  text-align:center;
-  display:inline-block;
-  padding:40px;
+  width: 350px;
+  text-align: center;
+  display: inline-block;
+  padding: 40px;
+
+  &__container {
+    display: flex;
+    flex-flow: row wrap;
+    width: 700px;
+    margin: 0 auto;
+
+    &__single {
+      width:350px;
+    }
+
+    &-margin {
+      margin:40px auto 60px auto;
+    }
+  }
+
+  &__logo-mark {
+    height: 4em;
+
+    &-text {
+      height: 4em;
+      padding-left: .5em;
+    }
+  }
+
 }
 
-.white {
-  background-color: #fff
+// background colours
+
+.c-white {
+  background-color: #fff;
+  border: 1px $gray-2 solid; // has a border to outline the white space
 }
 
-.color1 {
-  background-color: #2d3033
+.c-newyork {
+  background-color: $c-newyork;
 }
 
-.color2 {
-  background-color: #6c7279
+.c-london {
+  background-color: $c-london;
 }
 
-.navy {
-  background-color: #1c4561;
+.c-glencoe {
+  background-color: $c-glencoe;
 }
+
+.c-storm {
+  background-color: $c-storm;
+}
+
+.c-beijing {
+  background-color: $c-beijing;
+}
+
+.c-shanghai {
+  background-color: $c-shanghai;
+}
+
+.c-slate {
+  background-color: $c-slate;
+}
+
+.c-delhi {
+  background-color: $c-delhi;
+}
+
+// other colours
+
+.c-vhs {background-color: $c-vhs;}
+.c-vhs-light {background-color: $c-vhs-light;}
+.c-vhs-dark {background-color: $c-vhs-dark;}
+
+.c-moko {background-color: $c-moko;}
+.c-moko-light {background-color: $c-moko-light;}
+.c-moko-dark {background-color: $c-moko-dark;}
+
+.c-surf {background-color: $c-surf;}
+.c-surf-light {background-color: $c-surf-light;}
+.c-surf-dark {background-color: $c-surf-dark;}
+
+.c-ocean {background-color: $c-ocean;}
+.c-ocean-light {background-color: $c-ocean-light;}
+.c-ocean-dark {background-color: $c-ocean-dark;}
+
+.c-sky {background-color: $c-sky;}
+.c-sky-light {background-color: $c-sky-light;}
+.c-sky-dark {background-color: $c-sky-dark;}
+
+.c-royal {background-color: $c-royal;}
+.c-royal-light {background-color: $c-royal-light;}
+.c-royal-dark {background-color: $c-royal-dark;}
+
+.c-haze {background-color: $c-haze;}
+.c-haze-light {background-color: $c-haze-light;}
+.c-haze-dark {background-color: $c-haze-dark;}
+
+.c-dragonfruit {background-color: $c-dragonfruit;}
+.c-dragonfruit-light {background-color: $c-dragonfruit-light;}
+.c-dragonfruit-dark {background-color: $c-dragonfruit-dark;}
+
+.c-baby {background-color: $c-baby;}
+.c-baby-light {background-color: $c-baby-light;}
+.c-baby-dark {background-color: $c-baby-dark;}
+
+.c-mayhem {background-color: $c-mayhem;}
+.c-mayhem-light {background-color: $c-mayhem-light;}
+.c-mayhem-dark {background-color: $c-mayhem-dark;}
+
+.c-watermelon {background-color: $c-watermelon;}
+.c-watermelon-light {background-color: $c-watermelon-light;}
+.c-watermelon-dark {background-color: $c-watermelon-dark;}
+
+.c-elite {background-color: $c-elite;}
+.c-elite-light {background-color: $c-elite-light;}
+.c-elite-dark {background-color: $c-elite-dark;}
+
+.c-oops {background-color: $c-oops;}
+.c-oops-light {background-color: $c-oops-light;}
+.c-oops-dark {background-color: $c-oops-dark;}
+
+.c-prosper {background-color: $c-prosper;}
+.c-prosper-light {background-color: $c-prosper-light;}
+.c-prosper-dark {background-color: $c-prosper-dark;}

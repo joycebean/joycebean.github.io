@@ -32,37 +32,43 @@
   }
 
   a {
-    color: #429bce;
+    //color: #429bce;
+    //color: inherit;
     font-weight: bold;
 
     &:hover {
-      color: #5ab9e1;
+      //color: #5ab9e1;
       cursor: pointer;
     }
   }
-  
-  &__logo {
 
-    &-mark {
-      height: 4em;
-      fill: #000;
+  &__boxes-container {
+    margin :40px auto 60px auto;
+    width:780px;
 
-      &-text {
-        height: 4em;
-        padding-left: .5em;
+
+    &--item {
+      display: inline-block;
+      width: 240px;
+      text-align: center;
+      margin: 0 auto;
+      margin-right:10px;
+
+      &-top {
+        padding:60px 0px;
+        border-top-right-radius: 3px;
+        border-top-left-radius: 3px;
       }
-    }
 
-    &-slate {
-      fill: #2d3033;
-    }
-
-    &-green {
-      fill: #70cf32;
-    }
-
-    &-white {
-      fill: #ffffff;
+      &-bottom {
+        margin:0 auto;
+        padding:20px 0 10px 0;
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
+        border-left: 1px $gray-2 solid;
+        border-bottom: 1px $gray-2 solid;
+        border-right: 1px $gray-2 solid;
+      }
     }
   }
 }

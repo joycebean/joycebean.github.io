@@ -1,0 +1,93 @@
+.btn {
+  font-family: Raleway,sans-serif;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: .8125rem;
+  line-height: 2;
+  letter-spacing: .01rem;
+  display: inline-block;
+  padding: .3125rem .9375rem;
+  border: 1px solid $c-moko;
+  text-align: center;
+  border-radius: .1875rem;
+  cursor: pointer;
+  -webkit-transition-property: box-shadow,background-color,-webkit-transform;
+  transition-property: box-shadow,background-color,-webkit-transform;
+  transition-property: transform,box-shadow,background-color;
+  transition-property: transform,box-shadow,background-color,-webkit-transform;
+  -webkit-transition-duration: .2s;
+  transition-duration: .2s;
+  -webkit-transition-timing-function: ease;
+  transition-timing-function: ease;
+  -webkit-appearance: none;
+
+  &:hover {
+    color: $white;
+    -webkit-transform: translateY(-.0625rem);
+    transform: translateY(-.0625rem);
+    -webkit-transition-duration: .25s;
+    transition-duration: .25s;
+    -webkit-transition-timing-function: cubic-bezier(.2,-2,.8,3),ease,ease;
+    transition-timing-function: cubic-bezier(.2,-2,.8,3),ease,ease;
+  }
+
+  &--flat {
+      font-family: Raleway,sans-serif;
+      color: $c-slate;
+      text-transform: uppercase;
+      font-weight: 800;
+      font-size: .8125rem;
+      line-height: 2;
+      letter-spacing: .01rem;
+      display: inline-block;
+      padding: .3125rem .9375rem;
+      border: 1px solid $c-moko;
+      text-align: center;
+      border-radius: .1875rem;
+      cursor: pointer;
+      -webkit-appearance: none;
+
+      &:hover {
+        color: $white;
+        text-decoration: none;
+      }
+  }
+
+  &__primary--signup {
+    position: relative;
+    border: 0;
+    background-color: $c-moko;
+    background-image: -webkit-linear-gradient(top,rgba(23,173,133,0),rgba(23,173,133,.9));
+    background-image: linear-gradient(180deg,rgba(23,173,133,0),rgba(23,173,133,.9));
+    color: $white;
+    padding: .375rem .9375rem;
+    box-shadow: inset 0 0.0625rem 0 hsla(73,97%,71%,.5), 0 0.625rem 1.875rem -0.625rem rgba(0,0,0,.4);
+    text-shadow: 0.0625rem 0.0625rem 0 rgba(0,0,0,.05);
+
+    &:hover {
+      background-color: #8fe707;
+      box-shadow: inset 0 0.0625rem 0 #defd6f, 0 0.6875rem 2.5rem -0.625rem rgba(0,0,0,.3);
+      text-shadow: 0.0625rem 0.0625rem 0.0625rem rgba(0,0,0,.15);
+    }
+
+    &--label, &--label:hover {
+      color: $white;
+    }
+  }
+
+  &__primary--cta {
+    position: relative;
+    border: 0;
+    background-color: $c-moko;
+    color: $white;
+    padding: .375rem .9375rem;
+  }
+
+  &__secondary {
+    color: $c-slate;
+
+    &:hover {
+      color: initial;
+    }
+  }
+}
