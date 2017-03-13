@@ -15,6 +15,7 @@ Router.map(function() {
   });
   this.route('webinars');
   this.route('logo');
+  this.route('typography');
 });
 
 export default Router;

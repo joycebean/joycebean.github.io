@@ -10,7 +10,7 @@
       <a class="btn btn__primary--signup btn__primary--signup--label" href="#">This is a button</a>
     </div>
     <div class="content__boxes-container--item-bottom">
-      <p style="font-size:13px;">Primary Button</p>
+      <p>Primary Button</p>
     </div>
   </div>
 
@@ -19,7 +19,7 @@
       <a class="btn--flat btn__primary--cta" href="#">Download eBook</a>
     </div>
     <div class="content__boxes-container--item-bottom">
-      <p style="font-size:13px;">Primary button (simplified)</p>
+      <p>Primary button (simplified)</p>
     </div>
   </div>
 
@@ -28,7 +28,7 @@
       <a class="btn--flat btn__primary--cta" href="#">Download eBook</a>
     </div>
     <div class="content__boxes-container--item-bottom">
-      <p style="font-size:13px;">Primary button (simplified)</p>
+      <p>Primary button (simplified)</p>
     </div>
   </div>
 </div>
@@ -41,7 +41,7 @@
       <a class="btn btn__primary--signup--label" href="#">This is a button</a>
     </div>
     <div class="content__boxes-container--item-bottom">
-      <p style="font-size:13px;">Secondary Button</p>
+      <p>Secondary Button</p>
     </div>
   </div>
 
@@ -50,149 +50,7 @@
       <a class="btn btn__secondary" href="#">Download eBook</a>
     </div>
     <div class="content__boxes-container--item-bottom">
-      <p style="font-size:13px;">Secondary button</p>
+      <p>Secondary button</p>
     </div>
   </div>
-</div>
-
-
-
-<p>
-  Use the following button classes on <code>&lt;a&gt;</code>,
-  <code>&lt;button&gt;</code>, <code>&lt;input&gt;</code> elements.
-</p>
-
-<div class="ex-example">
-  <div>
-    <a class="button">Pack Invoice</a>
-    <a class="button button_primary">Save</a>
-    <a class="button right">Spaced</a>
-    <a class="button right">Automatically</a>
-  </div>
-  <pre>
-    <code class="language-markup">
-      &lt;!-- Standard button --&gt;
-      &lt;a class=&quot;button&quot;&gt;Pack Invoice&lt;a&gt;
-
-      &lt;!-- Primary buttons for important call to actions --&gt;
-      &lt;a class=&quot;button button_primary&quot;&gt;Save&lt;a&gt;
-
-      &lt;!-- Buttons are automatically spaced --&gt;
-      &lt;a class=&quot;button right&quot;&gt;Spaced&lt;/a&gt;
-      &lt;a class=&quot;button right&quot;&gt;Automatically&lt;/a&gt;
-    </code>
-  </pre>
-</div>
-
-<h3 class="content__subtitle" id="icons">Buttons with icons</h3>
-<p>
-  Icons are generally to the left of text, with a default margin unless <code>.button_icon</code> is applied.
-</p>
-<p>
-  <code>.fa-trash <i class="fa fa-trash"></i></code>  and
-  <code>.fa-trash-o <i class="fa fa-trash-o"></i></code>
-  have no margin by default since it is usually used without text.<br>
-  <code>.fa-caret-down <i class="fa fa-caret-down"></i></code> and
-  <code>.fa-chevron-right <i class="fa fa-chevron-right"></i></code>
-  have different margins since they are usually after text.
-</p>
-
-<div class="ex-example">
-  <div>
-    <a class="button"><i class="fa fa-envelope"></i> Email</a>
-    <a class="button button_icon"><i class="fa fa-ellipsis-h"></i></a>
-    <a class="button"><i class="fa fa-trash-o"></i></a>
-    <div class="right">
-      <a class="button">Actions <i class="fa fa-caret-down"></i></a>
-      <a class="button button_icon"><i class="fa fa-caret-down"></i></a>
-      <a class="button"><i class="fa fa-chevron-left"></i> Prev</a>
-      <a class="button">Next <i class="fa fa-chevron-right"></i></a>
-    </div>
-  </div>
-  <pre>
-    <code class="language-markup">
-      &lt;!-- With icon &amp; text &mdash;&mdash; Note the space before the text --&gt;
-      &lt;a class=&quot;button&quot;&gt;&lt;i class=&quot;fa fa-envelope&quot;&gt;&lt;/i&gt; Email&lt;/a&gt;
-
-      &lt;!-- With icon only --&gt;
-      &lt;a class=&quot;button button_icon&quot;&gt;&lt;i class=&quot;fa fa-ellipsis-h&quot;&gt;&lt;/i&gt;&lt;/a&gt;
-
-      &lt;!-- Special case: .fa-trash / .fa-trash-o --&gt;
-      &lt;a class=&quot;button&quot;&gt;&lt;i class=&quot;fa fa-trash-o&quot;&gt;&lt;/i&gt;&lt;/a&gt;
-
-      &lt;!-- Special case: .fa-caret-down --&gt;
-      &lt;a class=&quot;button&quot;&gt;Actions &lt;i class=&quot;fa fa-caret-down&quot;&gt;&lt;/i&gt;&lt;/a&gt;
-      &lt;a class=&quot;button button_icon&quot;&gt;&lt;i class=&quot;fa fa-caret-down&quot;&gt;&lt;/i&gt;&lt;/a&gt;
-
-      &lt;!-- Special case: .fa-chevron-left / .fa-chevron-right --&gt;
-      &lt;a class=&quot;button&quot;&gt;&lt;i class=&quot;fa fa-chevron-left&quot;&gt;&lt;/i&gt; Prev&lt;/a&gt;
-      &lt;a class=&quot;button&quot;&gt;Next &lt;i class=&quot;fa fa-chevron-right&quot;&gt;&lt;/i&gt;&lt;/a&gt;
-    </code>
-  </pre>
-</div>
-
-<h3 class="content__subtitle" id="states">Button states</h3>
-
-<div class="ex-example">
-  <div>
-    <a class="button active">Active</a>
-    <a class="button disabled">Disabled</a>
-    <a class="button button_primary active">Active</a>
-    <a class="button button_primary disabled">Disabled</a>
-  </div>
-  <pre>
-    <code class="language-markup">
-      &lt;a class=&quot;button active&quot;&gt;Active&lt;/a&gt;
-      &lt;a class=&quot;button disabled&quot;&gt;Disabled&lt;/a&gt;
-
-      &lt;a class=&quot;button button_primary active&quot;&gt;Active&lt;/a&gt;
-      &lt;a class=&quot;button button_primary disabled&quot;&gt;Disabled&lt;/a&gt;
-    </code>
-  </pre>
-</div>
-
-<h3 class="content__subtitle" id="sizes">Button sizes</h3>
-
-<div class="ex-example">
-  <div>
-    <a class="button button_large">Large</a>
-    <a class="button">Normal</a>
-    <a class="button button_small">Small</a>
-    <a class="button button_primary button_large">Large</a>
-    <a class="button button_primary">Normal</a>
-    <a class="button button_primary button_small">Small</a>
-  </div>
-  <pre>
-    <code class="language-markup">
-      &lt;a class=&quot;button button_large&quot;&gt;Large&lt;/a&gt;
-      &lt;a class=&quot;button&quot;&gt;Normal&lt;/a&gt;
-      &lt;a class=&quot;button button_small&quot;&gt;Small&lt;/a&gt;
-
-      &lt;a class=&quot;button button_primary button_large&quot;&gt;Large&lt;/a&gt;
-      &lt;a class=&quot;button button_primary&quot;&gt;Normal&lt;/a&gt;
-      &lt;a class=&quot;button button_primary button_small&quot;&gt;Small&lt;/a&gt;
-    </code>
-  </pre>
-</div>
-
-<h3 class="content__subtitle" id="groups">Button groups</h3>
-<p>Wrap a series of buttons with <code>.button</code> in <code>.button-group</code>.</p>
-
-<div class="ex-example">
-  <div>
-    <div class="button-group">
-      <a class="button"><i class="fa fa-pencil"></i> Edit</a>
-      <a class="button"><i class="fa fa-print"></i> Print</a>
-      <a class="button"><i class="fa fa-remove"></i> Delete</a>
-    </div>
-  </div>
-  <pre>
-    <code class="language-markup">
-      &lt;div class=&quot;button-group&quot;&gt;
-        &lt;a class=&quot;button&quot;&gt;&lt;i class=&quot;fa fa-pencil&quot;&gt;&lt;/i&gt; Edit&lt;/a&gt;
-        &lt;a class=&quot;button&quot;&gt;&lt;i class=&quot;fa fa-print&quot;&gt;&lt;/i&gt; Print&lt;/a&gt;
-        &lt;a class=&quot;button&quot;&gt;&lt;i class=&quot;fa fa-remove&quot;&gt;&lt;/i&gt; Delete&lt;/a&gt;
-      &lt;/div&gt;
-    </code>
-  </pre>
 </div>
