@@ -46,6 +46,10 @@
     margin :40px auto 60px auto;
     width:780px;
 
+    &--twoboxes {
+      margin :15px auto 10px auto;
+      width:520px;
+    }
 
     &--item {
       display: inline-block;
@@ -68,6 +72,7 @@
         border-left: 1px $gray-2 solid;
         border-bottom: 1px $gray-2 solid;
         border-right: 1px $gray-2 solid;
+        font-size: 13px;
       }
     }
   }

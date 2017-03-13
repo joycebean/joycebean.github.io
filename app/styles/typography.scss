@@ -1,0 +1,41 @@
+.typography {
+
+  &__raleway {
+    font-family: 'Raleway', sans-serif;
+    font-size: 72px;
+
+    &--light {
+      font-weight: 300;
+    }
+
+    &--normal {
+      font-weight: 400;
+    }
+
+    &--bold {
+      font-weight: 700;
+    }
+  }
+
+  &__opensans {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 72px;
+
+    &--light {
+      font-weight: 300;
+    }
+
+    &--normal {
+      font-weight: 400;
+    }
+
+    &--bold {
+      font-weight: 700;
+    }
+
+    &--extrabold {
+      font-weight: 800;
+    }
+
+  }
+}
