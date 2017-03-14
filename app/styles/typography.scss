@@ -38,4 +38,30 @@
     }
 
   }
+
+  &__example {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+
+    &--header {
+      font-size: 33px;
+      color: $c-slate;
+      margin-bottom: 0;
+    }
+
+    &--subheader {
+      font-size: 22px;
+      color: $c-beijing;
+    }
+
+    &--bodycopy {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 300;
+      font-size: 16px;
+      padding-top:15px;
+      line-height: 26.4px;
+      color: $c-glencoe;
+    }
+  }
+
 }
