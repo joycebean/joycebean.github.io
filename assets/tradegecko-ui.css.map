@@ -3,17 +3,17 @@
 	"sourceRoot": "/Users/tradegecko/Documents/tg-guidelines/app/styles",
 	"file": "tradegecko-ui.css",
 	"sources": [
-		"../../sass_compiler-input_base_path-xH4xKl58.tmp/app/styles/app.scss",
-		"../../sass_compiler-input_base_path-xH4xKl58.tmp/app/styles/variables/_base-colours.scss",
-		"../../sass_compiler-input_base_path-xH4xKl58.tmp/app/styles/variables/_global-variables.scss",
-		"../../sass_compiler-input_base_path-xH4xKl58.tmp/app/styles/reset.scss",
-		"../../sass_compiler-input_base_path-xH4xKl58.tmp/app/styles/base.scss",
-		"../../sass_compiler-input_base_path-xH4xKl58.tmp/app/styles/content.scss",
-		"../../sass_compiler-input_base_path-xH4xKl58.tmp/app/styles/sidebar.scss",
-		"../../sass_compiler-input_base_path-xH4xKl58.tmp/app/styles/color-box.scss",
-		"../../sass_compiler-input_base_path-xH4xKl58.tmp/app/styles/logos.scss",
-		"../../sass_compiler-input_base_path-xH4xKl58.tmp/app/styles/buttons.scss",
-		"../../sass_compiler-input_base_path-xH4xKl58.tmp/app/styles/typography.scss"
+		"../../sass_compiler-input_base_path-52FvPnLy.tmp/app/styles/app.scss",
+		"../../sass_compiler-input_base_path-52FvPnLy.tmp/app/styles/variables/_base-colours.scss",
+		"../../sass_compiler-input_base_path-52FvPnLy.tmp/app/styles/variables/_global-variables.scss",
+		"../../sass_compiler-input_base_path-52FvPnLy.tmp/app/styles/reset.scss",
+		"../../sass_compiler-input_base_path-52FvPnLy.tmp/app/styles/base.scss",
+		"../../sass_compiler-input_base_path-52FvPnLy.tmp/app/styles/content.scss",
+		"../../sass_compiler-input_base_path-52FvPnLy.tmp/app/styles/sidebar.scss",
+		"../../sass_compiler-input_base_path-52FvPnLy.tmp/app/styles/color-box.scss",
+		"../../sass_compiler-input_base_path-52FvPnLy.tmp/app/styles/logos.scss",
+		"../../sass_compiler-input_base_path-52FvPnLy.tmp/app/styles/buttons.scss",
+		"../../sass_compiler-input_base_path-52FvPnLy.tmp/app/styles/typography.scss"
 	],
 	"sourcesContent": [
 		"@import \"variables/_base-colours\";\n@import \"variables/_global-variables\";\n\n@import \"reset\";\n@import \"base\";\n@import \"content\";\n@import \"sidebar\";\n@import \"color-box\";\n@import \"logos\";\n@import \"buttons\";\n@import \"typography\";\n",
