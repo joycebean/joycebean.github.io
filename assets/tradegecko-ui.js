@@ -4762,7 +4762,7 @@ catch(err) {
 /* jshint ignore:start */
 
 if (!runningTests) {
-  require("tradegecko-ui/app")["default"].create({"name":"tradegecko-ui","version":"0.0.0+f2bbfc62"});
+  require("tradegecko-ui/app")["default"].create({"name":"tradegecko-ui","version":"0.0.0+b1ef3b0e"});
 }
 
 /* jshint ignore:end */
